@@ -401,3 +401,7 @@ FodyWeavers.xsd
 /cmake-build-release/.cmake/api/v1/query/toolchains-v1
 /cmake-build-release/.cmake/api/v1/reply/toolchains-v1-48d9093d17f8465aba94.json
 /.idea/vcs.xml
+/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-30adc163850e56ada8c5.json
+/Image.ppm
+/cmake-build-release/.cmake/api/v1/reply/index-2024-03-06T16-55-05-0116.json
+/cmake-build-release/.cmake/api/v1/reply/target-RayTracing_PathTracer-Release-2d8c7e9b430746c9fd19.json
