@@ -10,16 +10,17 @@ int main(int argc, char *argv[]) {
 
 
     for (int i = 0; i < height; ++i) {
+        std::clog << "\rScanlines remaining: " << (height - i) << ' ' << std::flush;
         for (int j = 0; j < width; ++j) {
-            auto r = double(i) / (width - 1);
-            auto g = double(j) / (height - 1);
+            auto r = double(j) / (width - 1);
+            auto g = double(i) / (height - 1);
             auto b = 0;
 
             int rInt = static_cast<int>(255.999 * r);
             int gInt = static_cast<int>(255.999 * g);
             int bInt = static_cast<int>(255.999 * b);
-            std::cout << rInt << " " << gInt << " " << bInt << "\n";
+            std::cout << rInt << ' ' << gInt << ' ' << bInt << "\n";
         }
     }
-
+    std::clog << "\rDone.                 \n";
 }
