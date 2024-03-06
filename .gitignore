@@ -1,0 +1,9 @@
+/cmake-build-release/
+/.idea/.gitignore
+/.idea/.name
+/CMakeLists.txt
+/Image.ppm
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/RayTracing-PathTracer.iml
+/.idea/vcs.xml
