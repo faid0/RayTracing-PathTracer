@@ -1,8 +1,5 @@
 #include "Raytracing.h"
 
-
-
-
 color ray_color(const ray &r) {
     vector3 unit_direction = unit_vector(r.direction());
     auto a = 0.5 * (unit_direction.y() + 1.0);
@@ -10,13 +7,10 @@ color ray_color(const ray &r) {
 }
 
 int main(int argc, char *argv[]) {
-    // set the image aspect ratio
+    // Image
     auto aspect_ratio = 16.0 / 9.0;
-    // set the image image_width.
     int image_width = 400;
-    // Calculate the image image_height.
     int image_height = static_cast<int>( image_width / aspect_ratio);
-    // ensure image_height is at least 1.
     image_height = (image_height < 1) ? 1 : image_height;
 
     // camera
