@@ -1,10 +1,7 @@
-//
-// Created by faidr on 06.03.2024.
-//
-
 #pragma once
 
 #include "vector3.h"
+
 class ray {
 public:
     ray(){};
